@@ -1,0 +1,6 @@
+[package]
+name = "elliptic_curve_over_finitefields"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
