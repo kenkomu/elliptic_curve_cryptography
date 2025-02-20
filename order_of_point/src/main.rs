@@ -177,7 +177,7 @@ fn mod_inverse(a: i64, m: i64) -> Option<i64> {
 }
 
 fn main() -> Result<(), &'static str> {
-    let curve = EllipticCurve::new(4, 4, 7)?;
+    let curve = EllipticCurve::new(8, 2, 17)?;
     let point = Point::new(0, 5);
 
     // Verify the point is on the curve
